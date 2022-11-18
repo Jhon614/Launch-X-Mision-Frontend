@@ -1,0 +1,200 @@
+body{
+    background-image: url(https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body section {
+    display: flex;
+    justify-content: center;
+}
+
+/* .caja{
+    margin-top: 10px;
+} */
+
+.pokedex{
+    display: flex;     /* para 2 columnas*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d33131;
+    width: 568px; 
+    height: 344px;
+    border: solid 2px black;
+    border-radius: 8px;
+    box-shadow: -3px 4px 1px 0px #a11515;
+    margin: 50px;
+}
+
+#pokemon-id-name{
+    text-align: center;
+    padding-top: 4px;
+    margin-top: -30px;
+}
+
+.image{
+    max-width: 108px;
+    padding: 0px;
+    margin: 20px 10px 5px 19px;
+}
+
+.pokeImg{
+    border: solid 1px black;
+    border-radius: 20px;
+    box-shadow: -3px 4px 4px #7878a7;
+    background-color: #dedede;
+    width: 179px;
+    height: 192px;
+    margin-bottom: 57px;
+}
+
+.pokePhoto{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 153px;
+    height: 170px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.selector3{
+    background-color: rgb(24, 23, 23);
+    border-radius: 50%;
+    height: 14px;
+    width: 15px;
+    margin-top: -16px;
+    margin-left: 31px;
+}
+
+.selector2 {
+    background-color: rgb(69, 69, 69);
+    width: 66px;
+    height: 18px;
+    margin-top: -39px;
+    margin-left: 6px;
+    border-radius: 20px;
+    box-shadow: -3px 1px;
+}
+
+.selector{
+    background-color: rgb(69, 69, 69);
+    width: 20px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 42px;
+    margin-left: 29px;
+    box-shadow: -2px 2px;
+}
+
+.btnA{
+    background-color: rgb(80, 231, 112);
+    border-radius: 50%;
+    height: 27px;
+    width: 30px;
+    box-shadow: -2px 3px 2px rgb(49, 54, 51);
+    margin-top: -10px;
+    margin-left: 104px;
+}
+
+.btnB{
+    background-color: rgb(33, 92, 201);
+    border-radius: 50%;
+    height: 27px;
+    width: 30px;
+    box-shadow: -2px 3px 4px rgb(33, 35, 36);
+    margin-top: -27px;
+    margin-left: 152px;
+}
+
+.bizagra{
+    background-color: #af2020;
+    border: solid 1px black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 60px;
+    height: 100%;
+    box-shadow: 0 4px #af2020;
+}
+
+::placeholder { 
+    color: rgb(241, 244, 249); 
+    text-shadow: 1px 1px 6px black;
+}
+
+.pokeInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-tipo, .pokemon-habilidad {
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+input {
+    border: solid 1px black;
+    border-radius: 11px;
+    background-color: rgb(102, 205, 253);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    padding: 4px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: -2px 2px 2px black;
+}
+
+button {
+    border: solid 1px black;
+    border-radius: 12px;
+    background-color: rgb(91, 130, 238);
+    color: white;
+    margin: 10px;
+    box-shadow: -2px 2px 2px black;
+}
+
+button:hover{
+    background-color: rgb(68, 126, 252);
+}
+
+.pokeScreen{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    width: 173px;
+    height: 100px;
+    font-size: 18px;
+    margin: 3px 1px 27px 9px;
+    padding: 5px;
+}
+
+.categoria{
+    margin: 2px 1px 4px -54px;
+}
+
+.poderes{
+    margin: 2px 1px 4px -93px;
+}
+
+.pokemon-tipo{
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 2px;
+};
+
+.pokemon-poder{
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 2px;
+}

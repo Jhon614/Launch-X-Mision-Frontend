@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokedex.css">    
+</head>
+
+<body>
+    <section>
+        <div class="pokedex">
+            <div class="pokeImg">
+                <div class="pokePhoto"> 
+                    <img src="./pokeball.png" alt="Pokemon" id="pokeImg" class="image" >
+                </div>
+                <div class="caja">
+                    <div><p id="pokemon-id-name"></p></div>
+                    <div class="selector"></div>
+                    <div class="selector2"></div>
+                    <div class="selector3"></div>
+                    <div class="btnA"></div>
+                    <div class="btnB"></div>
+                </div>    
+            </div>
+            <div class="bizagra">
+                
+            </div>
+            <div>
+                <div class="pokeInfo">
+                    <div class="pokeScreen">
+                        <div>
+                            <label for="tipo" class="categoria">Categoria:</label>
+                            <span name="tipo" class="pokemon-tipo"></span>
+                            <span name="tipo" class="pokemon-tipo"></span>
+                            <span name="tipo" class="pokemon-tipo"></span>
+                        </div>
+                        <br>
+                        
+                        <div>
+                            <label for="poder" class="poderes">Poderes:</label>
+                            <span name="poder" class="pokemon-poder"></span>
+                            <span class="pokemon-poder"></span>
+                            <span class="pokemon-poder"></span>
+                            <span class="pokemon-poder"></span>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Busca tu pokemon" id="pokeName" name="pokeName">
+                    <button onclick="fetchPokemon()">Iniciar Búsqueda</button>          
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer>
+    <!-- <script src="./pokedex.js"></script> -->
+    <script src="pokedex1.js"></script>
+</footer>
+</html>
